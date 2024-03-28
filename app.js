@@ -32,9 +32,9 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
+foods.unshift('taco');
 
-
-// console.log('Exercise 3 result:', foods);
+console.log('Exercise 3 result:', foods);
 
 /*
 Exercise 4: Access an array element
