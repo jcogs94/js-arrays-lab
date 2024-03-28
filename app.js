@@ -119,9 +119,9 @@ Note: The final result should log as:
 Complete Exercise 9 in the space below:
 */
 
+let allFoods = foods.join(' -> ');
 
-
-// console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 9 result:', allFoods);
 
 /*
 Exercise 10: Check for an element
