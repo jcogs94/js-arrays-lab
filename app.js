@@ -230,9 +230,13 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
+let num = 0;
+for (let currentArr of numArrays) {
+    if (currentArr.includes(66))
+        num = currentArr[currentArr.indexOf(66)];
+}
 
-
-// console.log('Exercise 14 result:', num);
+console.log('Exercise 14 result:', num);
 
 /*
 Exercise 15: Nested array sum
