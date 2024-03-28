@@ -208,14 +208,16 @@ Exercise 13: Retrieve the Last Array
 Complete Exercise 13 in the space below:
 */
 
-// const numArrays = [
-	// [100, 5, 23],
-	// [15, 21, 72, 9],
-	// [45, 66],
-	// [7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
-// console.log('Exercise 13 result:', numList);
+let numList = numArrays.slice(-1);
+
+console.log('Exercise 13 result:', numList);
 
 /*
 Exercise 14: Accessing within nested arrays
