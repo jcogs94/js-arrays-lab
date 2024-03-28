@@ -150,11 +150,14 @@ Hint: Initialize the `odds` variable to an empty array before the iteration.
 Complete Exercise 11 in the space below:
 */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
+let odds = [];
+for (let element of nums) {
+    odds.push(element);
+}
 
-
-// console.log('Exercise 11 result:', odds);
+console.log('Exercise 11 result:', odds);
 
 /*
 Exercise 12: FizzBuzz with arrays
