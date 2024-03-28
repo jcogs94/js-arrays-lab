@@ -178,12 +178,23 @@ Exercise 12: FizzBuzz with arrays
 Complete Exercise 12 in the space below:
 */
 
+fizz = [];
+buzz = [];
+fizzbuzz = [];
 
+for (let num of nums) {
+    if ((num % 3) === 0)
+        fizz.push(num);
+    if ((num % 5) === 0)
+        buzz.push(num);
+    if ((num % 3) === 0 && (num % 5) === 0)
+        fizzbuzz.push(num);
+}
 
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 /*
 Exercise 13: Retrieve the Last Array
