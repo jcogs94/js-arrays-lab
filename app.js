@@ -154,7 +154,8 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 let odds = [];
 for (let element of nums) {
-    odds.push(element);
+    if ((element % 2) !== 0)
+        odds.push(element);
 }
 
 console.log('Exercise 11 result:', odds);
